@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
 	int i,j,n,m;
-	char a[80],b[80];
+	char a[81],b[80];
 	char *p;
 	gets(a);
 	p=a;
