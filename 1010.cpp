@@ -3,8 +3,8 @@
 #include<stdlib.h>
 int main(){
 	int i=0,j=0,k=0,flag=0;
-	char a[10000],c[10000];
-	int b[10000],d[5000];
+	char a[1000],c[1000];
+	int b[1000],d[500];
 	while((a[i++]=getchar())!='\n');
 	for(i=0;i<strlen(a);i++){
 		switch(a[i]){
